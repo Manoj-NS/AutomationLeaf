@@ -9,10 +9,9 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import leaf_base.BaseClass;
-
+import leaf_dataproviders.DataProviders;
 import leaf_pages.LoginPage;
 import leaf_pages.WelcomePage;
-import leaf_utilities.DataProviders;
 
 public class LoginPageTest extends BaseClass{
 	
