@@ -4,7 +4,6 @@
   <artifactId>AutomationFramework</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
-
 <dependencies>
   		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 <dependency>
@@ -95,7 +94,7 @@
                 <configuration>
                     <source>17</source>
                     <target>17</target>
-                    <annotationProcessorPaths>r
+                    <annotationProcessorPaths>
                         <path>
                             <groupId>org.projectlombok</groupId>
                             <artifactId>lombok</artifactId>
@@ -112,7 +111,7 @@
                 <version>3.4.0</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>loginTest.xml</suiteXmlFile>
+                        <suiteXmlFile>login.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
