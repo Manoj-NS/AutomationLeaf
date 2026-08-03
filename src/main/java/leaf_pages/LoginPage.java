@@ -15,6 +15,7 @@ public class LoginPage {
 	}
 	
 //Locators	
+		
 	@FindBy(xpath="//form[@id='login']//p/label[@for='username']/following-sibling::input[@id='username']")
 	WebElement userName;
 	
@@ -24,8 +25,6 @@ public class LoginPage {
 	@FindBy(xpath="//form[@id='login']//p/input[@value='Login']")
 	WebElement login;
 	
-	@FindBy(xpath="//h2[normalize-space(.)='Welcome Demo B2B CSR']")
-	WebElement welcomeText;
 	
 //Action Methods
 	
@@ -37,10 +36,10 @@ public class LoginPage {
 		passWord.sendKeys(password);
 	}
 
-	public void clickLogin() {
+	public WelcomePage clickLogin() {
 		login.click();
+		return new WelcomePage(driver);
 	}
-	
 
 }
 
