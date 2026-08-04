@@ -46,5 +46,9 @@ public class WelcomePage {
 		return link.isDisplayed();
 	}
 	
+	public void clickCRMSFALink() {
+		link.click();
+	}
+	
 
 }
