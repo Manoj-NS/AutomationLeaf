@@ -32,6 +32,6 @@ public class WelcomeTest extends BaseClass{
 		Assert.assertTrue(welcomeP.isWelcomeTextDisplayed(), "Welcome Demo B2B CSR");
 		Assert.assertTrue(welcomeP.logoutButton(), "Logout button not displayed");
 		Assert.assertTrue(welcomeP.crmsfaLink(), "CRMSFA link not displayed");
-		
+		welcomeP.clickCRMSFALink();		
 	}
 }
