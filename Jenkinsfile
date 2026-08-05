@@ -23,6 +23,31 @@ pipeline {
             }
         }
 
+    	stage('Archive Reports') {
+            steps {
+                archiveArtifacts artifacts: 'reports/**', 
+		fingerprint: true,
+		allowEmptyArchive: true
+
+                archiveArtifacts artifacts: 'screenshots/**', 
+		fingerprint: true,
+		allowEmptyArchive: true
+            }
+        }
+
+    	stage('Publish Extent Report') {
+            steps {
+                publishHTML([
+                    allowMissing: true,
+                    alwaysLinkToLastBuild: true,
+                    keepAll: true,
+                    reportDir: 'reports',
+                    reportFiles: 'ExtentReport.html',
+                    reportName: 'Extent Report'
+                ])
+            }
+        }
+
     }
 
     post {
