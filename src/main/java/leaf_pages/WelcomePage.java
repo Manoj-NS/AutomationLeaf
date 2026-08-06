@@ -1,5 +1,8 @@
 package leaf_pages;
 
+
+//Create the HomePage object
+
 import java.time.Duration;
 
 import org.openqa.selenium.WebDriver;
