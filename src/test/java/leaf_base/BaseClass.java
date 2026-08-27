@@ -37,18 +37,22 @@ public class BaseClass {
 		if(browser.equalsIgnoreCase("chrome")) {
 			WebDriverManager.chromedriver().setup();
 	
-			//To avoid browser popup and chrome UI popup
-/*			
-			  ChromeOptions options = new ChromeOptions();
-			    Map<String, Object> prefs = new HashMap<>();
-
-			    prefs.put("credentials_enable_service", false);
-			    prefs.put("profile.password_manager_enabled", false);
-
-			    options.setExperimentalOption("prefs", prefs);
-*/
+//To avoid browser popup and chrome UI popup
+			
 			ChromeOptions options = new ChromeOptions();
-			options.addArguments("--disable-save-password-bubble");    
+
+	        Map<String, Object> prefs = new HashMap<>();
+
+	        prefs.put("credentials_enable_service", false);
+	        prefs.put("profile.password_manager_enabled", false);
+	        prefs.put("profile.password_manager_leak_detection", false);
+
+	        options.setExperimentalOption("prefs", prefs);
+
+	        options.addArguments(
+	                "--disable-features=PasswordLeakDetection"
+	        );
+			 
 			driver = new ChromeDriver(options);
 /*			
 			ChromeOptions options=new ChromeOptions();  //for headless mode(no browser launch)

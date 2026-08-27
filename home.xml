@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="HomeSuite">
+	<listeners>
+		<listener class-name="leaf_listeners.TestListeners"></listener>
+	</listeners>
+	
+  <test thread-count="5" parallel="tests" name="HomeTest" verbose="3">
+  	<parameter name="browser" value="chrome"></parameter>
+	<parameter name="url" value="https://leaftaps.com/opentaps/control/main"></parameter>
+	
+    <classes>
+      <class name="leaf_test.HomeTest"/>
+    </classes>
+  </test> <!-- HomeTest -->
+</suite> <!-- HomeSuite -->
