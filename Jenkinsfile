@@ -58,10 +58,48 @@ pipeline {
 
         success {
             echo 'Build Successful'
+
+            mail(
+                to: 'manoj.u2907@gmail.com',
+                subject: "SUCCESS: Jenkins Build #${env.BUILD_NUMBER}",
+                body: """
+		
+		Hello,
+
+		Your Jenkins build was SUCCESSFUL.
+
+		Job Name: ${env.JOB_NAME}
+		Build Number: ${env.BUILD_NUMBER}
+		Build URL: ${env.BUILD_URL}
+
+		Regards,
+		Jenkins
+		"""
+            )
         }
 
         failure {
             echo 'Build Failed'
+
+            mail(
+                to: 'manoj.u2907@gmail.com',
+                subject: "FAILED: Jenkins Build #${env.BUILD_NUMBER}",
+                body: """
+		
+		Hello,
+
+		Your Jenkins build has FAILED. 
+
+		Job Name: ${env.JOB_NAME}
+		Build Number: ${env.BUILD_NUMBER}
+		Build URL: ${env.BUILD_URL}
+
+		Please check the Jenkins Console Output.
+
+		Regards,
+		Jenkins
+		"""
+            )
         }
 
     }
