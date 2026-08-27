@@ -111,7 +111,7 @@
                 <version>3.4.0</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>welcome.xml</suiteXmlFile>
+                        <suiteXmlFile>home.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>

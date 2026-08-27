@@ -1,281 +1,327 @@
-21:12:59.077 [TestNG-tests-1] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Storing resolution chrome=150 in cache (valid until 22:12:59 03/08/2026 IST)
-21:12:59.082 [TestNG-tests-1] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Storing resolution chrome150=150.0.7871.124 in cache (valid until 21:12:59 04/08/2026 IST)
-21:12:59.275 [TestNG-tests-1] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 150.0.7871.124 found in cache
-21:12:59.277 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win64\150.0.7871.124\chromedriver.exe
-21:14:04.517 [TestNG-tests-1] INFO  leaf_base.BaseClass - Launched Browser: chrome
-21:14:21.277 [TestNG-tests-1] INFO  leaf_base.BaseClass - Navigated to URL: https://leaftaps.com/opentaps/control/main
-21:14:21.281 [TestNG-tests-1] INFO  org.testng.internal.Utils - [Invoker 1228963996] Invoking @BeforeMethod WelcomeTest.pageSetup()[pri:0, instance:leaf_test.WelcomeTest@67c2e933]
-21:14:22.818 [TestNG-tests-1] INFO  org.testng.internal.Utils - [Invoker 1228963996] Invoking leaf_test.WelcomeTest.verifyLogin
-21:14:27.982 [TestNG-tests-1] INFO  org.testng.internal.Utils - [Invoker 1228963996] Invoking @AfterMethod BaseClass.tearDown()[pri:0, instance:leaf_test.WelcomeTest@67c2e933]
-21:14:29.614 [TestNG-tests-1] INFO  leaf_base.BaseClass - Browser closed
-21:14:29.641 [TestNG-tests-1] INFO  org.testng.internal.Utils - [Invoker 1228963996] No configuration methods found
-21:14:32.974 [TestNG-tests-1] INFO  org.testng.internal.Utils - [[Utils]] Attempting to create C:\Users\ADMIN\eclipse-QA02\AutomationLeaf\test-output\WelcomeSuite\WelcomeTest.xml
-21:14:32.974 [TestNG-tests-1] INFO  org.testng.internal.Utils - [[Utils]]   Directory C:\Users\ADMIN\eclipse-QA02\AutomationLeaf\test-output\WelcomeSuite exists: true
-21:14:32.975 [TestNG-tests-1] INFO  org.testng.internal.Utils - Creating C:\Users\ADMIN\eclipse-QA02\AutomationLeaf\test-output\WelcomeSuite\WelcomeTest.xml
-21:14:33.378 [main] INFO  org.testng.internal.Utils - [Invoker 553759818] Invoking @AfterSuite BaseClass.endReport()[pri:0, instance:leaf_test.WelcomeTest@67c2e933]
-21:14:35.798 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@2af616d3: 2368 ms
-21:14:35.802 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@62d363ab: 3 ms
-21:14:36.798 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@34abdee4: 996 ms
-21:14:36.809 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@2f66e802: 11 ms
-21:14:36.815 [main] INFO  org.testng.internal.Utils - [[Utils]] Attempting to create C:\Users\ADMIN\eclipse-QA02\AutomationLeaf\test-output\junitreports\TEST-leaf_test.WelcomeTest.xml
-21:14:36.815 [main] INFO  org.testng.internal.Utils - [[Utils]]   Directory C:\Users\ADMIN\eclipse-QA02\AutomationLeaf\test-output\junitreports exists: true
-21:14:36.816 [main] INFO  org.testng.internal.Utils - Creating C:\Users\ADMIN\eclipse-QA02\AutomationLeaf\test-output\junitreports\TEST-leaf_test.WelcomeTest.xml
-21:14:36.817 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@411341bd: 8 ms
-21:14:36.817 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@4c4d362a: 0 ms
-01:18:44.161 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\ADMIN\eclipse-QA02\AutomationLeaf\welcome.xml"
-01:18:44.733 [main] INFO  org.testng.internal.Utils - [TestRunner] Running the tests in 'WelcomeTest' with parallel mode:tests
-01:18:44.746 [main] INFO  org.testng.internal.Utils - [RunInfo] Adding method selector: org.testng.internal.XmlMethodSelector@3f91b517 priority: 10
-01:18:44.904 [main] INFO  org.testng.internal.Utils - [TestClass] Creating TestClass for [ClassImpl class=leaf_test.WelcomeTest]
-01:18:44.960 [main] INFO  org.testng.internal.Utils - [TestClass] Adding method WelcomeTest.verifyLogin(java.lang.String,java.lang.String)[pri:0, instance:null] on TestClass class leaf_test.WelcomeTest
-01:18:45.042 [main] INFO  org.testng.internal.Utils - [XmlMethodSelector] Including method leaf_base.startReport()
-01:18:45.061 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 39 ms.
-01:18:45.119 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 50 ms.
-01:18:45.124 [main] INFO  org.testng.internal.Utils - [XmlMethodSelector] Including method leaf_base.endReport()
-01:18:45.125 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
-01:18:45.126 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
-01:18:45.129 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-01:18:45.129 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-01:18:45.132 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-01:18:45.132 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-01:18:45.134 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-01:18:45.135 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-01:18:45.136 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-01:18:45.137 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-01:18:45.139 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-01:18:45.139 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-01:18:45.142 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-01:18:45.142 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-01:18:45.149 [main] INFO  org.testng.internal.Utils - [XmlMethodSelector] Including method leaf_base.browserSetup()
-01:18:45.151 [main] INFO  org.testng.internal.Utils - [XmlMethodSelector] Including method leaf_test.pageSetup()
-01:18:45.151 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms.
-01:18:45.161 [main] INFO  org.testng.internal.Utils - [MethodInheritance] WelcomeTest.pageSetup()[pri:0, instance:null] DEPENDS ON BaseClass.browserSetup(java.lang.String,java.lang.String)[pri:0, instance:null]
-01:18:45.179 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 26 ms.
-01:18:45.184 [main] INFO  org.testng.internal.Utils - [XmlMethodSelector] Including method leaf_base.tearDown()
-01:18:45.184 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-01:18:45.185 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-01:18:45.196 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-01:18:45.197 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-01:18:45.197 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-01:18:45.197 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-01:18:45.200 [main] INFO  org.testng.internal.Utils - [XmlMethodSelector] Including method leaf_test.verifyLogin()
-01:18:45.200 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-01:18:45.201 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-01:18:45.203 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-01:18:45.204 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-01:18:45.205 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-01:18:45.205 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-01:18:45.233 [main] INFO  org.testng.internal.Utils - [Invoker 1265012928] Invoking @BeforeSuite BaseClass.startReport()[pri:0, instance:leaf_test.WelcomeTest@7862f56]
-01:18:46.031 [main] INFO  org.testng.internal.Utils - [SuiteRunner] Created 1 TestRunners
-01:18:46.048 [main] INFO  org.testng.internal.Utils - [ThreadUtil] Starting executor timeOut:2147483647ms workers:1 threadPoolSize:3
-01:18:46.052 [TestNG-tests-1] INFO  org.testng.internal.Utils - [[SuiteWorker]] Running XML Test 'WelcomeTest' in Parallel
-01:18:46.064 [TestNG-tests-1] INFO  org.testng.internal.Utils - [TestRunner] Running test WelcomeTest on 1  classes,  included groups:[] excluded groups:[]
-01:18:46.065 [TestNG-tests-1] INFO  org.testng.TestClass - ===== Test class
-leaf_test.WelcomeTest
-01:18:46.065 [TestNG-tests-1] INFO  org.testng.TestClass -   @BeforeMethod BaseClass.browserSetup(java.lang.String,java.lang.String)[pri:0, instance:leaf_test.WelcomeTest@7862f56]
-01:18:46.065 [TestNG-tests-1] INFO  org.testng.TestClass -   @BeforeMethod WelcomeTest.pageSetup()[pri:0, instance:leaf_test.WelcomeTest@7862f56]
-01:18:46.065 [TestNG-tests-1] INFO  org.testng.TestClass -     @Test WelcomeTest.verifyLogin(java.lang.String,java.lang.String)[pri:0, instance:leaf_test.WelcomeTest@7862f56]
-01:18:46.065 [TestNG-tests-1] INFO  org.testng.TestClass -   @AfterMethod BaseClass.tearDown()[pri:0, instance:leaf_test.WelcomeTest@7862f56]
-01:18:46.066 [TestNG-tests-1] INFO  org.testng.TestClass - ======
-01:18:46.076 [TestNG-tests-1] INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 6 ms.
-01:18:46.101 [TestNG-tests-1] INFO  org.testng.internal.Utils - [Invoker 40875560] No configuration methods found
-01:18:46.131 [TestNG-tests-1] INFO  org.testng.internal.Utils - [Invoker 40875560] Invoking @BeforeMethod BaseClass.browserSetup(java.lang.String,java.lang.String)[pri:0, instance:leaf_test.WelcomeTest@7862f56]
-01:18:46.309 [TestNG-tests-1] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 6.0.0
-01:18:48.039 [TestNG-tests-1] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Removing resolution chrome=150 from cache (expired on 2026-08-03T22:12:59.000+0530)
-01:18:48.109 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient - ex-0000000001 preparing request execution
-01:18:48.142 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.impl.classic.ProtocolExec - ex-0000000001 target auth state: UNCHALLENGED
-01:18:48.144 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.impl.classic.ProtocolExec - ex-0000000001 proxy auth state: UNCHALLENGED
-01:18:48.144 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.impl.classic.ConnectExec - ex-0000000001 acquiring connection with route {s}->https://raw.githubusercontent.com:443
-01:18:48.144 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient - ex-0000000001 acquiring endpoint (3 MINUTES)
-01:18:48.147 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000001 endpoint lease request (3 MINUTES) [route: {s}->https://raw.githubusercontent.com:443][total available: 0; route allocated: 0 of 5; total allocated: 0 of 25]
-01:18:48.159 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000001 endpoint leased [route: {s}->https://raw.githubusercontent.com:443][total available: 0; route allocated: 1 of 5; total allocated: 1 of 25]
-01:18:48.235 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000001 acquired ep-0000000001
-01:18:48.235 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient - ex-0000000001 acquired endpoint ep-0000000001
-01:18:48.236 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.impl.classic.ConnectExec - ex-0000000001 opening connection {s}->https://raw.githubusercontent.com:443
-01:18:48.237 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient - ep-0000000001 connecting endpoint (null)
-01:18:48.368 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000001 connecting endpoint to https://raw.githubusercontent.com:443 (30 SECONDS)
-01:18:48.369 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator - raw.githubusercontent.com resolving remote address
-01:18:48.414 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator - raw.githubusercontent.com resolved to [raw.githubusercontent.com/185.199.108.133, raw.githubusercontent.com/185.199.109.133, raw.githubusercontent.com/185.199.110.133, raw.githubusercontent.com/185.199.111.133, raw.githubusercontent.com/2606:50c0:8000:0:0:0:0:154, raw.githubusercontent.com/2606:50c0:8001:0:0:0:0:154, raw.githubusercontent.com/2606:50c0:8002:0:0:0:0:154, raw.githubusercontent.com/2606:50c0:8003:0:0:0:0:154]
-01:18:48.603 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator - raw.githubusercontent.com:443 connecting null->raw.githubusercontent.com/185.199.108.133:443 (30 SECONDS)
-01:18:48.603 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory - Connecting socket to raw.githubusercontent.com/185.199.108.133:443 with timeout 30 SECONDS
-01:18:50.281 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory - Enabled protocols: [TLSv1.3, TLSv1.2]
-01:18:50.283 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory - Enabled cipher suites: [TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
-01:18:50.283 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory - Starting handshake (null)
-01:18:51.245 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory - Secure session established
-01:18:51.245 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory -  negotiated protocol: TLSv1.3
-01:18:51.246 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory -  negotiated cipher suite: TLS_AES_128_GCM_SHA256
-01:18:51.256 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory -  peer principal: CN=*.github.io
-01:18:51.256 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory -  peer alternative names: [*.github.com, *.github.io, *.githubusercontent.com, github.com, github.io, githubusercontent.com]
-01:18:51.257 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory -  issuer principal: CN=YR2, O=Let's Encrypt, C=US
-01:18:51.257 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.impl.io.DefaultManagedHttpClientConnection - http-outgoing-0 set socket timeout to 3 MINUTES
-01:18:51.258 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator - raw.githubusercontent.com:443 connected null->raw.githubusercontent.com/185.199.108.133:443 as http-outgoing-0
-01:18:51.258 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000001 connected http-outgoing-0
-01:18:51.258 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient - ep-0000000001 endpoint connected
-01:18:51.259 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.impl.classic.MainClientExec - ex-0000000001 executing GET /bonigarcia/webdrivermanager/master/src/main/resources/commands.properties HTTP/1.1
-01:18:51.259 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.protocol.RequestAddCookies - ex-0000000001 Cookie spec selected: strict
-01:18:51.321 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient - ep-0000000001 start execution ex-0000000001
-01:18:51.321 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000001 executing exchange ex-0000000001 over http-outgoing-0
-01:18:51.322 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 >> GET /bonigarcia/webdrivermanager/master/src/main/resources/commands.properties HTTP/1.1
-01:18:51.322 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 >> user-agent: Apache-HttpClient/5.0
-01:18:51.322 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 >> accept-encoding: gzip, deflate, br
-01:18:51.322 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 >> cache-control: max-age=0
-01:18:51.322 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 >> connection: keep-alive
-01:18:51.322 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 >> Host: raw.githubusercontent.com
-01:18:51.323 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 >> "GET /bonigarcia/webdrivermanager/master/src/main/resources/commands.properties HTTP/1.1[\r][\n]"
-01:18:51.323 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 >> "user-agent: Apache-HttpClient/5.0[\r][\n]"
-01:18:51.323 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 >> "accept-encoding: gzip, deflate, br[\r][\n]"
-01:18:51.323 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 >> "cache-control: max-age=0[\r][\n]"
-01:18:51.323 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 >> "connection: keep-alive[\r][\n]"
-01:18:51.323 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 >> "Host: raw.githubusercontent.com[\r][\n]"
-01:18:51.323 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 >> "[\r][\n]"
-01:18:51.361 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
-01:18:51.361 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
-01:18:51.362 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "Content-Length: 946[\r][\n]"
-01:18:51.362 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "Cache-Control: max-age=300[\r][\n]"
-01:18:51.362 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox[\r][\n]"
-01:18:51.362 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "Content-Type: text/plain; charset=utf-8[\r][\n]"
-01:18:51.362 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "ETag: W/"dc0c32cea2dfa86f6cf10513cf8a64e1e8817484a415b658b4eecd962d4deaee"[\r][\n]"
-01:18:51.362 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "Strict-Transport-Security: max-age=31536000[\r][\n]"
-01:18:51.362 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
-01:18:51.362 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "X-Frame-Options: deny[\r][\n]"
-01:18:51.362 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "X-XSS-Protection: 1; mode=block[\r][\n]"
-01:18:51.362 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "X-GitHub-Request-Id: 1A00:3EC541:5A640F:BD920A:6A4CA6B0[\r][\n]"
-01:18:51.363 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
-01:18:51.363 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "Accept-Ranges: bytes[\r][\n]"
-01:18:51.363 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "Date: Mon, 03 Aug 2026 19:48:51 GMT[\r][\n]"
-01:18:51.363 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "Via: 1.1 varnish[\r][\n]"
-01:18:51.363 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "X-Served-By: cache-maa10248-MAA[\r][\n]"
-01:18:51.363 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "X-Cache: HIT[\r][\n]"
-01:18:51.364 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "X-Cache-Hits: 1[\r][\n]"
-01:18:51.364 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "X-Timer: S1785786531.467715,VS0,VE1[\r][\n]"
-01:18:51.364 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "Vary: Authorization,Accept-Encoding[\r][\n]"
-01:18:51.364 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
-01:18:51.364 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "Cross-Origin-Resource-Policy: cross-origin[\r][\n]"
-01:18:51.364 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "X-Fastly-Request-ID: a05045911a7cb26d0eef512875aad251cd03076e[\r][\n]"
-01:18:51.366 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "Expires: Mon, 03 Aug 2026 19:53:51 GMT[\r][\n]"
-01:18:51.366 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "Source-Age: 131[\r][\n]"
-01:18:51.366 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "[\r][\n]"
-01:18:51.389 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << HTTP/1.1 200 OK
-01:18:51.389 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << Connection: keep-alive
-01:18:51.389 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << Content-Length: 946
-01:18:51.389 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << Cache-Control: max-age=300
-01:18:51.389 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
-01:18:51.389 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << Content-Type: text/plain; charset=utf-8
-01:18:51.389 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << ETag: W/"dc0c32cea2dfa86f6cf10513cf8a64e1e8817484a415b658b4eecd962d4deaee"
-01:18:51.389 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << Strict-Transport-Security: max-age=31536000
-01:18:51.389 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << X-Content-Type-Options: nosniff
-01:18:51.390 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << X-Frame-Options: deny
-01:18:51.390 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << X-XSS-Protection: 1; mode=block
-01:18:51.390 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << X-GitHub-Request-Id: 1A00:3EC541:5A640F:BD920A:6A4CA6B0
-01:18:51.390 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << Content-Encoding: gzip
-01:18:51.390 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << Accept-Ranges: bytes
-01:18:51.390 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << Date: Mon, 03 Aug 2026 19:48:51 GMT
-01:18:51.390 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << Via: 1.1 varnish
-01:18:51.390 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << X-Served-By: cache-maa10248-MAA
-01:18:51.390 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << X-Cache: HIT
-01:18:51.390 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << X-Cache-Hits: 1
-01:18:51.391 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << X-Timer: S1785786531.467715,VS0,VE1
-01:18:51.391 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << Vary: Authorization,Accept-Encoding
-01:18:51.391 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << Access-Control-Allow-Origin: *
-01:18:51.391 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << Cross-Origin-Resource-Policy: cross-origin
-01:18:51.391 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << X-Fastly-Request-ID: a05045911a7cb26d0eef512875aad251cd03076e
-01:18:51.391 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << Expires: Mon, 03 Aug 2026 19:53:51 GMT
-01:18:51.391 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << Source-Age: 131
-01:18:51.413 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.impl.classic.MainClientExec - ex-0000000001 connection can be kept alive for 3 MINUTES
-01:18:51.459 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "[0x1f][0xffffff8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xffffffb5]X[0xffffffd1]n[0xffffffda]0[0x14]}[0xffffffe7]+,[0xffffffba]J [0x11][0xffffffb2][0x1][0xffffffeb][0xffffffaa]Jy[0xffffffa0][0x19]e[0xffffffd5][0xffffffa8]`[0xffffffd0]v[0xffffff9b][0xffffffe4][0x17][0xffffff93]8`)[0xffffff89]Q[0xffffff9c]@[0xffffffb7][0xffffffa9][0xfffffffb][0xfffffff6]9NB[0xffffffe3]$[0xc]H[0xffffffe0][0xffffffad][0xffffff8e][0xffffff8f][0xffffffef]97[0xffffffdc]s}[0xffffffd3][0xb][0xffffffa0]S[0xffffffc7]A[0xffffffae][0xffffffc9][0xffffff80][0xffffff89]|4G[0xc][0xffffffd7].[0xffffffc0][0xffffffe3][0xffffff92]0`[0x11][0x1b][0x3][0xffffff83][0xffffffba]>".[0x3][0xfffffffe]2\[0xffffffc4]P[0xffffff9f][0xffffff82]9[0x6][0xfffffff8][0x5][0x1b][0xffffff81][0xffffff8f]M@\[0xffffffb1][0xffffffcd][0xffffff96][0xffffffd8][0xffffffb6][0xffffffc3][0x5][0xfffffff5]L[0xffffffec][0xffffff85] [0x13][0xfffffffb][0xffffffd8][0xfffffff0][0xffffffc5][0xffffffe6][0x1a]{[0xffffff8c]P[0xffffffbe]g[0x1][0xffffffcc][0xffffffff]^x[0x18][0xffffffbb]`[0xffffffee][0xffffffd1][\r][0xffffffe3][0x1b][0xffffff9c][0xffffffb2][0xffffffa1]/=[0xffffffea][0xffffffe0][0x16][0xffffffb8]#[0x1e][0xffffffb6][0xffffffe8]K[0xb][0xffffff8c]W[0xffffffd8]C-00[0x17][0xfffffffc][0xffffffa9][0xffffffd8]%[0xffffff81][0xffffffd3][0xc][0xffffffe3][0xffffff9b][0xffffffc4][0xffffffb2][0xffffffb0][0xffffff87]][0x1f][0xffffffd0][0x10][0xffffffe3][0x13]w[0x1][0xffffffd8]/[0xffffffe6]c[0xffffff87][0xffffff81][0xffffffc6]w[0xffffffe2][0xffffff9a]<j[0xb][0xffffff8c][0xffffff88][0x1b][0xfffffff0]0[0xf][0xffffffc8][0x0][0xffffffe3]Y[0xffffffb3][0xffffffc6]9"[0xffffff8a]Z[0xffffff9c]F[0xffffffdb][0x10][0xffffffcb][0xfffffff6]&:[0xffffffd0]~[0xffffffff]A3[0x1c][0xffffffb3][0xffffffcd][0xffffffb3][0x2][0xffffffaa][0xe]6[0xe]1[0xffffffc4]+[0x11][0xffffffaf]a[0xffffffb3][0xffffffe4]|[0xffffffc0]E[0xe][0xffffffd6][0xffffffea][0xffffff97][0xffffff93][0xffffffe9]x8[0xffffffed]?[0xffffffdc][0xffffffdd][0xffffff8f][0x6][0xffffffb3][0x1b][0xffffffa8]Ax[0x9][0xffffffe1][0xffffff90][0xffffffd2][0xffffff85][0xffffff8d]![0xffffff8c]( [0xffffffec][0xffffffaf]V61[0xffffffb8]4[0xffffffea]B[0x18][0x13][0xfffffff1][0xffffffc8]u[0xffffffb0][0xffffffc0]>x[0xffffff8e][0xffffffdf][0xffffff85][0xffffffba]Fv[0xffffffb0][O[0xffffffa7][0xffffff84][0xffffff9e][0xffffffc6][0xffffff8f][0xffffffeb][0xffffffab][0xffffffe6]9Eu[0xf][0x14]5[0x1a][0xffffffeb][0xfffffffd]Q[0x7f]2[0xfffffff9][0xffffffdc][0x7f][0xffffffec][0xffffff9f]SOO[0xffffff9b][0xe][0xffffff86][0xffffffe0][0xffffffdb][0xffffffd3]`[0xfffffffa][0x13]|[0xfffffff9][0xffffffaa]?[0xffffffc1][0x19][0xffffffb5][0xfffffffc][\r][0xfffffff2]p[0xffffffc2][0x16][0xffffff93][0xffffffdd][0xffffff8e]n12D[0xffffffbc][0xffffffa4][0x16]w[0xffffffc6][0xfffffffc][0xffffffa8][0xffffffad][0xffffffe8][0xffffff86]c[0xffffffc2]z[0x16][0xffffffa9]*[0xffffffb1]I@c[0xffffff88]}[0xffffffe5][0xffffff9e][0x17][0x1a][0xffffffa8][0xffffffbf][0xfffffffb][0xffffff83][0xffffffdd][0xfffffff5]M:[0xffffffcd][0xffffffd7][0xc]e:[0xffffffbd]Tv[0xffffffcd]v[0xffffff9c][0xffffffda][0xffffffbd]k[0xffffffd1][0xfffffff6][0xffffffc4][0xffffffa3]f`[0xfffffff8][0xffffffcf]{$][0x1d].)W[0xe][0xffffffe7][0xffffffd4][0xfffffff5][0xffffffa9][0xffffff9c][0xffffffae]SH[0xffffffca]j[0xffffffb2]C[0xffffffbf][0xffffff87].V[0x3][0xffffffe6][0xffffffa9]s[0xffffffe2][0xffffffaa][0xb][0xffffffc1][0xffffffa1]D[0xfffffffb]@Qv[0xfffffffc][0xffffffee][0xfffffff1][0xffffffc1][0xffffff8e][0xffffffb6][0xb][0xffffff9f]=[0xffffffe0] C[0xfffffff0][0xffffffa4]T35J([0xffffffee]1m[0xffffffb4]Z[0xffffffa9]:[0xffffffef][0xffffff9d][0xffffffbc]I1[0xffffff95][0xffffffb7][0xffffffa0][0xfffffff1]L[0x6][0xffffffa4][0xffffffa3][0xfffffff3][0xffffffce][0x14]7[0xffffffbd]-[0xffffff91][0x15][0xffffffad]O[0xffffffd3][0xffffff9b][0x1e][0xffffffe8]ob[0xffffffdb](![0xffffff81]0[0xffffff89][0xffffffbe][0xffffffcf]k9[0x15][0xffffff95];[0xffffffd2][0xffffffe9][0xffffffa4]tS[0xffffffbe][0xffffffaf][0xffffffcb][0xffffffc6][0xffffff8f]I[0xffffffb2]d[0xfffffff5][0xffffffd0][0xfffffffa]z[0xffffffe0][0xffffff85][0x17]G[0xffffffb6][0xffffffac]s[0xffffffe1]{[0xffffff95][0xfffffffc][0x16]1[0xffffffff][0xfffffffd] [0xffffffa5]w[0xffffff90][0xffffffbf]rB[0xffffff8e][0xffffffe8]E[0xffffffb2][0xffffffc1][0xffffff8e][0xffffffd7][0xffffff90][0x13][0xffffff91]wT[0xffffffbc][0x3][0xffffff94][0xfffffff5].pGKar[0xffffffa0]B[0xffffffe7][0xffffffc4][0xffffffbf]O[0xffffff91]g[0xffffffd2][0xffffffb1][0xffffffb8]M[0xffffffc2]Y`[0x1b][0x13][0xfffffff3]E5[0xffffff83][0xffffffc8][0xffffffa5]I[0xc][0xffffff8f]2^C[0x10][0xffffff86]4[0xffffff99][0xffffffdb][0xffffffc9]a[0xffffff82]n_[0xffffff99][0xffffffca][0xffffff9a][0xffffffca][0xffffffd8][0xffffffe5][0xffffff8c]r[0xffffffba];[0xffffffaf][0xffffffca]72[0xffffffc1][0xfffffff5][0xffffffbf][0xffffffbb]R[0xe]Y[0xffffffd2]&[0xffffffaf]Y[0xffffffc6]tr[0xffffffa9][0xffffffdc][0xe][0xffffffb2][0xffffff8c][0xffffffac][0xffffffa8][0xffffffa4]_[0x12][0xffffffe3]V[0xffffff97]U[0xffffff93][0xffffff85][0xffffffe5]=[0xffffffe4]$[0x1c]J[0x8]([0xffffffb8][0xffffff96][0xffffffd2][0xffffffe7]:[0xffffffda]N[0xffffffb8][0xffffff8c]/t[0xffffffd6]6[0x1d][0xffffffe1][0xffffff9c]"[0xffffff83][0xffffffc9][0x8] ]Jb[0x0][0xffffffdf][0xffffffb2][0xffffff88]Q[0xfffffffb]x[0xffffffbf][0x15][0xffffffcd][0xffffff81][0xfffffffc][0xffffff8d]-<[0xffffffe4]0[0x8][0x5][0x5][0xffffff84]Q[0xffffffec]}[0xffffffd5][0xffffff9c]QP[0xffffffc5]][0xffffffa7]QPe[0x16][0xffffff8e]ym[0x14][0xffffffb8][0x6][0xffffffc7][0x1e]K[0xffffffdd][0xffffffab][0xffffff90]|E[0xffffffea][0xffffffd2]7R[0xffffffc4]+[0xffffffd1][0x1e]d[0xfffffff0][0xc][0xffffffff][0x11][0xffffffa3][0xffffffb0]<[0xffffff9d][0xffffff9f][0xffffff88][0xffffffbf][0xfffffff4][0xffffffc8][0xffffffbb]-[0xffffffba]H[0xffffffc8][[0xffffffc9][0xffffff95]Qq][0xfffffff6]-[0xffffff94]S[0xffffff91][0xffffff91][0xffffff91][0xffffffef]j[0xffffffe2]yA3[0xffffff93][0xfffffff0][0x1d]-[0xb][0xffffffcb][0xffffffe0][\n]"
-01:18:51.460 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "[0xffffffbb][0xffffff98][0x10]Z[0xffffffd4][0xffffffbc][0xffffffc6][0xffffffd9]`[0xffffffc9]7>[0x9][0x1c]yf[0xffffffe7][0xf]N[0xffffffd3][0xffffffba][0xffffff92][0xfffffff0][0x15]>^%-[0xffffff95]'[0xffffffea]S[0xb]:[0xffffffb4][0xffffffa7][0x15]5[0xffffff96]Sk)=]l[0xffffff85]T[0xfffffffe][0xffffffd4][0xffffff95][0xfffffff4]T[0xffffff9b]-[0xffffffce]$[0xffffffaa]t;[0xffffffac][0xffffffa4]'/([0xffffffdf][0x12][0xffffff92]-%[0xfffffffe]7[0xffffffdf][0xffffffae]/[0xfffffff0][0xffffffd4]in[0xffffff87][0xffffffe3][0xf]u[0xfffffff3][0xffffff94][0x7][0xffffff9c][0xffffffea]i[0x5][0xffffffe0]<[0xffffffba][0xffffffb0]#%[0xffffffaf][0xffffffae][0xffffffa8])[0xffffffe9][0x5]Q/[0xffffffc0][0xc]Y[0xffffffc8]#[0xffffffdb][0xfffffff0]L,[0xffffff8b][0xffffff83]G[0xffffffd0][0xffffffa2][0xffffffd0][0xffffffd1]N*[0xfffffff0]?l[0x1d]d@[0xffffffbe][0x15][0x0][0x0]"
-01:18:51.465 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient - ep-0000000001 releasing valid endpoint
-01:18:51.466 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000001 releasing endpoint
-01:18:51.467 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000001 connection http-outgoing-0 can be kept alive for 3 MINUTES
-01:18:51.468 [TestNG-tests-1] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000001 connection released [route: {s}->https://raw.githubusercontent.com:443][total available: 1; route allocated: 1 of 5; total allocated: 1 of 25]
-01:18:51.468 [TestNG-tests-1] DEBUG io.github.bonigarcia.wdm.versions.VersionDetector - Detecting chrome version using online commands.properties
-01:18:51.485 [TestNG-tests-1] DEBUG io.github.bonigarcia.wdm.versions.Shell - Running command on the shell: [powershell.exe, -Command, (Get-Item "${env:PROGRAMFILES}\Google\Chrome\Application\chrome.exe").VersionInfo.ProductVersion]
-01:20:36.464 [TestNG-tests-1] DEBUG io.github.bonigarcia.wdm.versions.Shell - Result: 150.0.7871.187
-01:20:36.469 [TestNG-tests-1] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome150=150.0.7871.124 in cache (valid until 21:12:59 04/08/2026 IST)
-01:20:36.469 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 150.0.7871.124 (resolved driver for Chrome 150)
-01:20:36.476 [TestNG-tests-1] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Storing resolution chrome=150 in cache (valid until 02:20:36 04/08/2026 IST)
-01:20:36.683 [TestNG-tests-1] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 150.0.7871.124 found in cache
-01:20:36.687 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win64\150.0.7871.124\chromedriver.exe
-01:21:54.958 [TestNG-tests-1] INFO  leaf_base.BaseClass - Launched Browser: chrome
-01:24:05.771 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\ADMIN\eclipse-QA02\AutomationLeaf\welcome.xml"
-01:24:06.080 [main] INFO  org.testng.internal.Utils - [TestRunner] Running the tests in 'WelcomeTest' with parallel mode:tests
-01:24:06.091 [main] INFO  org.testng.internal.Utils - [RunInfo] Adding method selector: org.testng.internal.XmlMethodSelector@3f91b517 priority: 10
-01:24:06.192 [main] INFO  org.testng.internal.Utils - [TestClass] Creating TestClass for [ClassImpl class=leaf_test.WelcomeTest]
-01:24:06.232 [main] INFO  org.testng.internal.Utils - [TestClass] Adding method WelcomeTest.verifyLogin(java.lang.String,java.lang.String)[pri:0, instance:null] on TestClass class leaf_test.WelcomeTest
-01:24:06.268 [main] INFO  org.testng.internal.Utils - [XmlMethodSelector] Including method leaf_base.startReport()
-01:24:06.280 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 10 ms.
-01:24:06.306 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 22 ms.
-01:24:06.311 [main] INFO  org.testng.internal.Utils - [XmlMethodSelector] Including method leaf_base.endReport()
-01:24:06.311 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-01:24:06.312 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
-01:24:06.315 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-01:24:06.315 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-01:24:06.317 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-01:24:06.317 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-01:24:06.319 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-01:24:06.319 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-01:24:06.320 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-01:24:06.321 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-01:24:06.322 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-01:24:06.323 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-01:24:06.325 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-01:24:06.325 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-01:24:06.331 [main] INFO  org.testng.internal.Utils - [XmlMethodSelector] Including method leaf_base.browserSetup()
-01:24:06.332 [main] INFO  org.testng.internal.Utils - [XmlMethodSelector] Including method leaf_test.pageSetup()
-01:24:06.332 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-01:24:06.340 [main] INFO  org.testng.internal.Utils - [MethodInheritance] WelcomeTest.pageSetup()[pri:0, instance:null] DEPENDS ON BaseClass.browserSetup(java.lang.String,java.lang.String)[pri:0, instance:null]
-01:24:06.358 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 23 ms.
-01:24:06.362 [main] INFO  org.testng.internal.Utils - [XmlMethodSelector] Including method leaf_base.tearDown()
-01:24:06.362 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
-01:24:06.363 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
-01:24:06.369 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-01:24:06.370 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-01:24:06.370 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-01:24:06.370 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-01:24:06.372 [main] INFO  org.testng.internal.Utils - [XmlMethodSelector] Including method leaf_test.verifyLogin()
-01:24:06.372 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-01:24:06.373 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-01:24:06.376 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-01:24:06.377 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-01:24:06.377 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-01:24:06.378 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-01:24:06.407 [main] INFO  org.testng.internal.Utils - [Invoker 1176932104] Invoking @BeforeSuite BaseClass.startReport()[pri:0, instance:leaf_test.WelcomeTest@7862f56]
-01:24:06.863 [main] INFO  org.testng.internal.Utils - [SuiteRunner] Created 1 TestRunners
-01:24:06.871 [main] INFO  org.testng.internal.Utils - [ThreadUtil] Starting executor timeOut:2147483647ms workers:1 threadPoolSize:3
-01:24:06.874 [TestNG-tests-1] INFO  org.testng.internal.Utils - [[SuiteWorker]] Running XML Test 'WelcomeTest' in Parallel
-01:24:06.885 [TestNG-tests-1] INFO  org.testng.internal.Utils - [TestRunner] Running test WelcomeTest on 1  classes,  included groups:[] excluded groups:[]
-01:24:06.886 [TestNG-tests-1] INFO  org.testng.TestClass - ===== Test class
-leaf_test.WelcomeTest
-01:24:06.886 [TestNG-tests-1] INFO  org.testng.TestClass -   @BeforeMethod BaseClass.browserSetup(java.lang.String,java.lang.String)[pri:0, instance:leaf_test.WelcomeTest@7862f56]
-01:24:06.886 [TestNG-tests-1] INFO  org.testng.TestClass -   @BeforeMethod WelcomeTest.pageSetup()[pri:0, instance:leaf_test.WelcomeTest@7862f56]
-01:24:06.886 [TestNG-tests-1] INFO  org.testng.TestClass -     @Test WelcomeTest.verifyLogin(java.lang.String,java.lang.String)[pri:0, instance:leaf_test.WelcomeTest@7862f56]
-01:24:06.886 [TestNG-tests-1] INFO  org.testng.TestClass -   @AfterMethod BaseClass.tearDown()[pri:0, instance:leaf_test.WelcomeTest@7862f56]
-01:24:06.887 [TestNG-tests-1] INFO  org.testng.TestClass - ======
-01:24:06.896 [TestNG-tests-1] INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 5 ms.
-01:24:06.911 [TestNG-tests-1] INFO  org.testng.internal.Utils - [Invoker 1042891691] No configuration methods found
-01:24:06.939 [TestNG-tests-1] INFO  org.testng.internal.Utils - [Invoker 1042891691] Invoking @BeforeMethod BaseClass.browserSetup(java.lang.String,java.lang.String)[pri:0, instance:leaf_test.WelcomeTest@7862f56]
-01:24:06.967 [TestNG-tests-1] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 6.0.0
-01:24:08.224 [TestNG-tests-1] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome=150 in cache (valid until 02:20:36 04/08/2026 IST)
-01:24:08.228 [TestNG-tests-1] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome150=150.0.7871.124 in cache (valid until 21:12:59 04/08/2026 IST)
-01:24:08.229 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 150.0.7871.124 (resolved driver for Chrome 150)
-01:24:08.287 [TestNG-tests-1] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 150.0.7871.124 found in cache
-01:24:08.290 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win64\150.0.7871.124\chromedriver.exe
-01:24:18.083 [TestNG-tests-1] INFO  leaf_base.BaseClass - Launched Browser: chrome
-01:24:26.471 [TestNG-tests-1] INFO  leaf_base.BaseClass - Navigated to URL: https://leaftaps.com/opentaps/control/main
-01:24:26.475 [TestNG-tests-1] INFO  org.testng.internal.Utils - [Invoker 1042891691] Invoking @BeforeMethod WelcomeTest.pageSetup()[pri:0, instance:leaf_test.WelcomeTest@7862f56]
-01:24:27.263 [TestNG-tests-1] INFO  org.testng.internal.Utils - [Invoker 1042891691] Invoking leaf_test.WelcomeTest.verifyLogin
-01:24:31.034 [TestNG-tests-1] INFO  org.testng.internal.Utils - [Invoker 1042891691] Invoking @AfterMethod BaseClass.tearDown()[pri:0, instance:leaf_test.WelcomeTest@7862f56]
-01:24:31.944 [TestNG-tests-1] INFO  leaf_base.BaseClass - Browser closed
-01:24:31.946 [TestNG-tests-1] INFO  org.testng.internal.Utils - [Invoker 1042891691] No configuration methods found
-01:24:33.120 [TestNG-tests-1] INFO  org.testng.internal.Utils - [[Utils]] Attempting to create C:\Users\ADMIN\eclipse-QA02\AutomationLeaf\target\surefire-reports\WelcomeSuite\WelcomeTest.xml
-01:24:33.121 [TestNG-tests-1] INFO  org.testng.internal.Utils - [[Utils]]   Directory C:\Users\ADMIN\eclipse-QA02\AutomationLeaf\target\surefire-reports\WelcomeSuite exists: true
-01:24:33.123 [TestNG-tests-1] INFO  org.testng.internal.Utils - Creating C:\Users\ADMIN\eclipse-QA02\AutomationLeaf\target\surefire-reports\WelcomeSuite\WelcomeTest.xml
-01:24:33.137 [main] INFO  org.testng.internal.Utils - [Invoker 1176932104] Invoking @AfterSuite BaseClass.endReport()[pri:0, instance:leaf_test.WelcomeTest@7862f56]
-01:24:33.297 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@6fa590ba: 130 ms
-01:24:33.300 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@7bf9b098: 1 ms
-01:24:33.317 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@8a589a2: 17 ms
-01:24:33.327 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@76a82f33: 10 ms
-01:24:33.333 [main] INFO  org.testng.internal.Utils - [[Utils]] Attempting to create C:\Users\ADMIN\eclipse-QA02\AutomationLeaf\target\surefire-reports\junitreports\TEST-leaf_test.WelcomeTest.xml
-01:24:33.333 [main] INFO  org.testng.internal.Utils - [[Utils]]   Directory C:\Users\ADMIN\eclipse-QA02\AutomationLeaf\target\surefire-reports\junitreports exists: true
-01:24:33.335 [main] INFO  org.testng.internal.Utils - Creating C:\Users\ADMIN\eclipse-QA02\AutomationLeaf\target\surefire-reports\junitreports\TEST-leaf_test.WelcomeTest.xml
-01:24:33.336 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@7bb3a9fe: 9 ms
-01:24:33.336 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@7cbee484: 0 ms
+21:37:36.741 [main] INFO  org.testng.internal.Utils - [TestRunner] Running test HomeTest on 1  classes,  included groups:[] excluded groups:[]
+21:37:37.394 [main] INFO  org.testng.TestClass - ===== Test class
+leaf_test.HomeTest
+21:37:37.395 [main] INFO  org.testng.TestClass -   @BeforeMethod BaseClass.browserSetup(java.lang.String,java.lang.String)[pri:0, instance:leaf_test.HomeTest@3243b914]
+21:37:37.396 [main] INFO  org.testng.TestClass -   @BeforeMethod HomeTest.pageSetup()[pri:0, instance:leaf_test.HomeTest@3243b914]
+21:37:37.397 [main] INFO  org.testng.TestClass -     @Test HomeTest.homepageTest(java.lang.String,java.lang.String)[pri:0, instance:leaf_test.HomeTest@3243b914]
+21:37:37.427 [main] INFO  org.testng.TestClass -   @AfterMethod BaseClass.tearDown()[pri:0, instance:leaf_test.HomeTest@3243b914]
+21:37:37.427 [main] INFO  org.testng.TestClass - ======
+21:37:37.444 [main] INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 7 ms.
+21:37:38.312 [main] INFO  org.testng.internal.Utils - [Invoker 1479140596] Invoking @BeforeMethod BaseClass.browserSetup(java.lang.String,java.lang.String)[pri:0, instance:leaf_test.HomeTest@3243b914]
+21:37:39.574 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 6.0.0
+21:37:49.707 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome=151 in cache (valid until 22:11:23 26/08/2026 IST)
+21:37:49.715 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome151=151.0.7922.138 in cache (valid until 21:11:23 27/08/2026 IST)
+21:37:49.716 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 151.0.7922.138 (resolved driver for Chrome 151)
+21:37:49.998 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 151.0.7922.138 found in cache
+21:37:50.003 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win64\151.0.7922.138\chromedriver.exe
+21:38:14.462 [main] INFO  leaf_base.BaseClass - Launched Browser: chrome
+21:38:28.163 [main] INFO  leaf_base.BaseClass - Navigated to URL: https://leaftaps.com/opentaps/control/main
+21:38:28.166 [main] INFO  org.testng.internal.Utils - [Invoker 1479140596] Invoking @BeforeMethod HomeTest.pageSetup()[pri:0, instance:leaf_test.HomeTest@3243b914]
+21:38:30.481 [main] INFO  org.testng.internal.Utils - [Invoker 1479140596] Invoking leaf_test.HomeTest.homepageTest
+21:39:19.060 [main] INFO  org.testng.internal.Utils - [Invoker 1479140596] Invoking @AfterMethod BaseClass.tearDown()[pri:0, instance:leaf_test.HomeTest@3243b914]
+21:39:24.965 [main] INFO  leaf_base.BaseClass - Browser closed
+21:39:27.147 [main] INFO  org.testng.internal.Utils - [[Utils]] Attempting to create C:\Users\ADMIN\eclipse-QA03\AutomationLeaf\test-output\HomeSuite\HomeTest.xml
+21:39:27.150 [main] INFO  org.testng.internal.Utils - [[Utils]]   Directory C:\Users\ADMIN\eclipse-QA03\AutomationLeaf\test-output\HomeSuite exists: true
+21:39:27.152 [main] INFO  org.testng.internal.Utils - Creating C:\Users\ADMIN\eclipse-QA03\AutomationLeaf\test-output\HomeSuite\HomeTest.xml
+21:39:27.174 [main] INFO  org.testng.internal.Utils - [Invoker 1479140596] Invoking @AfterSuite BaseClass.endReport()[pri:0, instance:leaf_test.HomeTest@3243b914]
+21:39:27.467 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@5b5ac798: 225 ms
+21:39:27.513 [main] INFO  org.testng.internal.Utils - [[Utils]] Attempting to create C:\Users\ADMIN\eclipse-QA03\AutomationLeaf\test-output\testng-failed.xml
+21:39:27.514 [main] INFO  org.testng.internal.Utils - [[Utils]]   Directory C:\Users\ADMIN\eclipse-QA03\AutomationLeaf\test-output exists: true
+21:39:27.518 [main] INFO  org.testng.internal.Utils - Creating C:\Users\ADMIN\eclipse-QA03\AutomationLeaf\test-output\testng-failed.xml
+21:39:27.525 [main] INFO  org.testng.internal.Utils - [[Utils]] Attempting to create C:\Users\ADMIN\eclipse-QA03\AutomationLeaf\test-output\HomeSuite\testng-failed.xml
+21:39:27.526 [main] INFO  org.testng.internal.Utils - [[Utils]]   Directory C:\Users\ADMIN\eclipse-QA03\AutomationLeaf\test-output\HomeSuite exists: true
+21:39:27.527 [main] INFO  org.testng.internal.Utils - Creating C:\Users\ADMIN\eclipse-QA03\AutomationLeaf\test-output\HomeSuite\testng-failed.xml
+21:39:27.529 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@33379242: 62 ms
+21:39:27.584 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@6e03db1f: 46 ms
+21:39:27.603 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@68699afc: 18 ms
+21:39:27.614 [main] INFO  org.testng.internal.Utils - [[Utils]] Attempting to create C:\Users\ADMIN\eclipse-QA03\AutomationLeaf\test-output\junitreports\TEST-leaf_test.HomeTest.xml
+21:39:27.614 [main] INFO  org.testng.internal.Utils - [[Utils]]   Directory C:\Users\ADMIN\eclipse-QA03\AutomationLeaf\test-output\junitreports exists: true
+21:39:27.617 [main] INFO  org.testng.internal.Utils - Creating C:\Users\ADMIN\eclipse-QA03\AutomationLeaf\test-output\junitreports\TEST-leaf_test.HomeTest.xml
+21:39:27.618 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@3a2e9f5b: 14 ms
+21:39:27.618 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@7da34b26: 0 ms
+21:39:46.445 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\ADMIN\eclipse-QA03\AutomationLeaf\home.xml"
+21:39:46.911 [main] INFO  org.testng.internal.Utils - [TestRunner] Running the tests in 'HomeTest' with parallel mode:tests
+21:39:46.915 [main] INFO  org.testng.internal.Utils - [RunInfo] Adding method selector: org.testng.internal.XmlMethodSelector@22356acd priority: 10
+21:39:47.006 [main] INFO  org.testng.internal.Utils - [TestClass] Creating TestClass for [ClassImpl class=leaf_test.HomeTest]
+21:39:47.070 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 8 ms.
+21:39:47.094 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 20 ms.
+21:39:47.099 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+21:39:47.100 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+21:39:47.102 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+21:39:47.102 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+21:39:47.104 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+21:39:47.105 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+21:39:47.106 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+21:39:47.106 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+21:39:47.107 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+21:39:47.108 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+21:39:47.109 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+21:39:47.109 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+21:39:47.110 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+21:39:47.110 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+21:39:47.115 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+21:39:47.132 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 16 ms.
+21:39:47.136 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+21:39:47.137 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+21:39:47.145 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+21:39:47.145 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+21:39:47.146 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+21:39:47.146 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+21:39:47.147 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+21:39:47.148 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+21:39:47.151 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+21:39:47.151 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+21:39:47.151 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+21:39:47.152 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+21:39:47.166 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ADMIN\eclipse-QA03\AutomationLeaf\home.xml
+
+21:39:47.193 [main] INFO  org.testng.internal.Utils - [Invoker 204322447] Invoking @BeforeSuite BaseClass.startReport()[pri:0, instance:leaf_test.HomeTest@4dc8caa7]
+21:39:47.589 [main] INFO  org.testng.internal.Utils - [SuiteRunner] Created 1 TestRunners
+21:39:47.597 [main] INFO  org.testng.internal.Utils - [TestRunner] Running test HomeTest on 1  classes,  included groups:[] excluded groups:[]
+21:39:47.597 [main] INFO  org.testng.TestClass - ===== Test class
+leaf_test.HomeTest
+21:39:47.597 [main] INFO  org.testng.TestClass -   @BeforeMethod BaseClass.browserSetup(java.lang.String,java.lang.String)[pri:0, instance:leaf_test.HomeTest@4dc8caa7]
+21:39:47.598 [main] INFO  org.testng.TestClass -   @BeforeMethod HomeTest.pageSetup()[pri:0, instance:leaf_test.HomeTest@4dc8caa7]
+21:39:47.598 [main] INFO  org.testng.TestClass -     @Test HomeTest.homepageTest(java.lang.String,java.lang.String)[pri:0, instance:leaf_test.HomeTest@4dc8caa7]
+21:39:47.598 [main] INFO  org.testng.TestClass -   @AfterMethod BaseClass.tearDown()[pri:0, instance:leaf_test.HomeTest@4dc8caa7]
+21:39:47.598 [main] INFO  org.testng.TestClass - ======
+21:39:47.611 [main] INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 5 ms.
+21:39:47.651 [main] INFO  org.testng.internal.Utils - [Invoker 204322447] Invoking @BeforeMethod BaseClass.browserSetup(java.lang.String,java.lang.String)[pri:0, instance:leaf_test.HomeTest@4dc8caa7]
+21:39:47.681 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 6.0.0
+21:39:48.631 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome=151 in cache (valid until 22:11:23 26/08/2026 IST)
+21:39:48.634 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome151=151.0.7922.138 in cache (valid until 21:11:23 27/08/2026 IST)
+21:39:48.635 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 151.0.7922.138 (resolved driver for Chrome 151)
+21:39:48.671 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 151.0.7922.138 found in cache
+21:39:48.674 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win64\151.0.7922.138\chromedriver.exe
+21:39:59.745 [main] INFO  leaf_base.BaseClass - Launched Browser: chrome
+21:40:10.093 [main] INFO  leaf_base.BaseClass - Navigated to URL: https://leaftaps.com/opentaps/control/main
+21:40:10.095 [main] INFO  org.testng.internal.Utils - [Invoker 204322447] Invoking @BeforeMethod HomeTest.pageSetup()[pri:0, instance:leaf_test.HomeTest@4dc8caa7]
+21:40:10.376 [main] INFO  org.testng.internal.Utils - [Invoker 204322447] Invoking leaf_test.HomeTest.homepageTest
+21:40:27.476 [main] INFO  org.testng.internal.Utils - [Invoker 204322447] Invoking @AfterMethod BaseClass.tearDown()[pri:0, instance:leaf_test.HomeTest@4dc8caa7]
+21:40:35.148 [main] INFO  leaf_base.BaseClass - Browser closed
+21:40:37.794 [main] INFO  org.testng.internal.Utils - [[Utils]] Attempting to create C:\Users\ADMIN\eclipse-QA03\AutomationLeaf\test-output\HomeSuite\HomeTest.xml
+21:40:37.796 [main] INFO  org.testng.internal.Utils - [[Utils]]   Directory C:\Users\ADMIN\eclipse-QA03\AutomationLeaf\test-output\HomeSuite exists: true
+21:40:37.797 [main] INFO  org.testng.internal.Utils - Creating C:\Users\ADMIN\eclipse-QA03\AutomationLeaf\test-output\HomeSuite\HomeTest.xml
+21:40:37.811 [main] INFO  org.testng.internal.Utils - [Invoker 204322447] Invoking @AfterSuite BaseClass.endReport()[pri:0, instance:leaf_test.HomeTest@4dc8caa7]
+21:40:38.122 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@784223e9: 266 ms
+21:40:38.125 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@73a8e994: 2 ms
+21:40:38.155 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@b3e86d5: 29 ms
+21:40:38.210 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@77fa9381: 55 ms
+21:40:38.219 [main] INFO  org.testng.internal.Utils - [[Utils]] Attempting to create C:\Users\ADMIN\eclipse-QA03\AutomationLeaf\test-output\junitreports\TEST-leaf_test.HomeTest.xml
+21:40:38.219 [main] INFO  org.testng.internal.Utils - [[Utils]]   Directory C:\Users\ADMIN\eclipse-QA03\AutomationLeaf\test-output\junitreports exists: true
+21:40:38.221 [main] INFO  org.testng.internal.Utils - Creating C:\Users\ADMIN\eclipse-QA03\AutomationLeaf\test-output\junitreports\TEST-leaf_test.HomeTest.xml
+21:40:38.222 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@2e32fc22: 12 ms
+21:40:38.223 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@3f5156a6: 1 ms
+21:47:56.809 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\ADMIN\eclipse-QA03\AutomationLeaf\home.xml"
+21:47:57.229 [main] INFO  org.testng.internal.Utils - [TestRunner] Running the tests in 'HomeTest' with parallel mode:tests
+21:47:57.237 [main] INFO  org.testng.internal.Utils - [RunInfo] Adding method selector: org.testng.internal.XmlMethodSelector@3f91b517 priority: 10
+21:47:57.344 [main] INFO  org.testng.internal.Utils - [TestClass] Creating TestClass for [ClassImpl class=leaf_test.HomeTest]
+21:47:57.454 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 16 ms.
+21:47:57.517 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 58 ms.
+21:47:57.521 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+21:47:57.522 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+21:47:57.524 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+21:47:57.524 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+21:47:57.526 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+21:47:57.526 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+21:47:57.527 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+21:47:57.528 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+21:47:57.530 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+21:47:57.530 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+21:47:57.532 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+21:47:57.532 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+21:47:57.533 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+21:47:57.534 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+21:47:57.540 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+21:47:57.567 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 25 ms.
+21:47:57.571 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+21:47:57.572 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+21:47:57.602 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+21:47:57.603 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+21:47:57.603 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+21:47:57.604 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+21:47:57.606 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+21:47:57.607 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+21:47:57.610 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+21:47:57.610 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+21:47:57.611 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+21:47:57.612 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+21:47:57.641 [main] INFO  org.testng.internal.Utils - [Invoker 1176932104] Invoking @BeforeSuite BaseClass.startReport()[pri:0, instance:leaf_test.HomeTest@7862f56]
+21:47:58.347 [main] INFO  org.testng.internal.Utils - [SuiteRunner] Created 1 TestRunners
+21:47:58.361 [main] INFO  org.testng.internal.Utils - [TestRunner] Running test HomeTest on 1  classes,  included groups:[] excluded groups:[]
+21:47:58.361 [main] INFO  org.testng.TestClass - ===== Test class
+leaf_test.HomeTest
+21:47:58.361 [main] INFO  org.testng.TestClass -   @BeforeMethod BaseClass.browserSetup(java.lang.String,java.lang.String)[pri:0, instance:leaf_test.HomeTest@7862f56]
+21:47:58.362 [main] INFO  org.testng.TestClass -   @BeforeMethod HomeTest.pageSetup()[pri:0, instance:leaf_test.HomeTest@7862f56]
+21:47:58.362 [main] INFO  org.testng.TestClass -     @Test HomeTest.homepageTest(java.lang.String,java.lang.String)[pri:0, instance:leaf_test.HomeTest@7862f56]
+21:47:58.362 [main] INFO  org.testng.TestClass -   @AfterMethod BaseClass.tearDown()[pri:0, instance:leaf_test.HomeTest@7862f56]
+21:47:58.362 [main] INFO  org.testng.TestClass - ======
+21:47:58.371 [main] INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 5 ms.
+21:47:58.429 [main] INFO  org.testng.internal.Utils - [Invoker 1176932104] Invoking @BeforeMethod BaseClass.browserSetup(java.lang.String,java.lang.String)[pri:0, instance:leaf_test.HomeTest@7862f56]
+21:47:58.529 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 6.0.0
+21:48:00.511 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome=151 in cache (valid until 22:11:23 26/08/2026 IST)
+21:48:00.513 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome151=151.0.7922.138 in cache (valid until 21:11:23 27/08/2026 IST)
+21:48:00.515 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 151.0.7922.138 (resolved driver for Chrome 151)
+21:48:00.572 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 151.0.7922.138 found in cache
+21:48:00.574 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win64\151.0.7922.138\chromedriver.exe
+21:49:08.201 [main] INFO  leaf_base.BaseClass - Launched Browser: chrome
+21:52:55.957 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\ADMIN\eclipse-QA03\AutomationLeaf\home.xml"
+21:52:56.265 [main] INFO  org.testng.internal.Utils - [TestRunner] Running the tests in 'HomeTest' with parallel mode:tests
+21:52:56.274 [main] INFO  org.testng.internal.Utils - [RunInfo] Adding method selector: org.testng.internal.XmlMethodSelector@3f91b517 priority: 10
+21:52:56.372 [main] INFO  org.testng.internal.Utils - [TestClass] Creating TestClass for [ClassImpl class=leaf_test.HomeTest]
+21:52:56.456 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 12 ms.
+21:52:56.491 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 30 ms.
+21:52:56.495 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+21:52:56.496 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+21:52:56.498 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+21:52:56.498 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+21:52:56.501 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+21:52:56.501 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+21:52:56.503 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+21:52:56.503 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+21:52:56.504 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+21:52:56.505 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+21:52:56.506 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+21:52:56.506 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+21:52:56.508 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+21:52:56.508 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+21:52:56.515 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+21:52:56.538 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 22 ms.
+21:52:56.543 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+21:52:56.544 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+21:52:56.550 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+21:52:56.551 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+21:52:56.551 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+21:52:56.552 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+21:52:56.553 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+21:52:56.554 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+21:52:56.557 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+21:52:56.557 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+21:52:56.558 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+21:52:56.559 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+21:52:56.591 [main] INFO  org.testng.internal.Utils - [Invoker 1176932104] Invoking @BeforeSuite BaseClass.startReport()[pri:0, instance:leaf_test.HomeTest@7862f56]
+21:52:57.108 [main] INFO  org.testng.internal.Utils - [SuiteRunner] Created 1 TestRunners
+21:52:57.126 [main] INFO  org.testng.internal.Utils - [TestRunner] Running test HomeTest on 1  classes,  included groups:[] excluded groups:[]
+21:52:57.126 [main] INFO  org.testng.TestClass - ===== Test class
+leaf_test.HomeTest
+21:52:57.126 [main] INFO  org.testng.TestClass -   @BeforeMethod BaseClass.browserSetup(java.lang.String,java.lang.String)[pri:0, instance:leaf_test.HomeTest@7862f56]
+21:52:57.127 [main] INFO  org.testng.TestClass -   @BeforeMethod HomeTest.pageSetup()[pri:0, instance:leaf_test.HomeTest@7862f56]
+21:52:57.127 [main] INFO  org.testng.TestClass -     @Test HomeTest.homepageTest(java.lang.String,java.lang.String)[pri:0, instance:leaf_test.HomeTest@7862f56]
+21:52:57.128 [main] INFO  org.testng.TestClass -   @AfterMethod BaseClass.tearDown()[pri:0, instance:leaf_test.HomeTest@7862f56]
+21:52:57.128 [main] INFO  org.testng.TestClass - ======
+21:52:57.140 [main] INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 7 ms.
+21:52:57.190 [main] INFO  org.testng.internal.Utils - [Invoker 1176932104] Invoking @BeforeMethod BaseClass.browserSetup(java.lang.String,java.lang.String)[pri:0, instance:leaf_test.HomeTest@7862f56]
+21:52:57.221 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 6.0.0
+21:52:58.218 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome=151 in cache (valid until 22:11:23 26/08/2026 IST)
+21:52:58.221 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome151=151.0.7922.138 in cache (valid until 21:11:23 27/08/2026 IST)
+21:52:58.222 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 151.0.7922.138 (resolved driver for Chrome 151)
+21:52:58.265 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 151.0.7922.138 found in cache
+21:52:58.267 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win64\151.0.7922.138\chromedriver.exe
+21:53:11.050 [main] INFO  leaf_base.BaseClass - Launched Browser: chrome
+21:53:32.707 [main] INFO  org.testng.internal.Utils - Failed to invoke configuration method leaf_base.BaseClass.browserSetup:timeout: Timed out receiving message from renderer: 0.982
+  (Session info: chrome=151.0.7922.174)
+Build info: version: '4.36.0', revision: '6d115cfd87'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4d7be49677150f71b1bd0bd1e25a8f18, get {url=https://leaftaps.com/opentaps/control/main}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.174, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58374}, goog:processID: 6768, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58374/devtoo..., se:cdpVersion: 151.0.7922.174, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4d7be49677150f71b1bd0bd1e25a8f18
+21:53:32.726 [main] INFO  org.testng.internal.Utils - [Invoker 1176932104] Skipping @BeforeMethod HomeTest.pageSetup()[pri:0, instance:leaf_test.HomeTest@7862f56]
+21:53:33.039 [main] INFO  org.testng.internal.Utils - [Invoker 1176932104] Skipping @AfterMethod BaseClass.tearDown()[pri:0, instance:leaf_test.HomeTest@7862f56]
+21:53:36.278 [main] INFO  org.testng.internal.Utils - [[Utils]] Attempting to create C:\Users\ADMIN\eclipse-QA03\AutomationLeaf\target\surefire-reports\HomeSuite\HomeTest.xml
+21:53:36.279 [main] INFO  org.testng.internal.Utils - [[Utils]]   Directory C:\Users\ADMIN\eclipse-QA03\AutomationLeaf\target\surefire-reports\HomeSuite exists: true
+21:53:36.282 [main] INFO  org.testng.internal.Utils - Creating C:\Users\ADMIN\eclipse-QA03\AutomationLeaf\target\surefire-reports\HomeSuite\HomeTest.xml
+21:53:36.368 [main] INFO  org.testng.internal.Utils - [Invoker 1176932104] Skipping @AfterSuite BaseClass.endReport()[pri:0, instance:leaf_test.HomeTest@7862f56]
+21:53:36.669 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@6ed043d3: 291 ms
+21:53:36.683 [main] INFO  org.testng.internal.Utils - [[Utils]] Attempting to create C:\Users\ADMIN\eclipse-QA03\AutomationLeaf\target\surefire-reports\testng-failed.xml
+21:53:36.684 [main] INFO  org.testng.internal.Utils - [[Utils]]   Directory C:\Users\ADMIN\eclipse-QA03\AutomationLeaf\target\surefire-reports exists: true
+21:53:36.685 [main] INFO  org.testng.internal.Utils - Creating C:\Users\ADMIN\eclipse-QA03\AutomationLeaf\target\surefire-reports\testng-failed.xml
+21:53:36.690 [main] INFO  org.testng.internal.Utils - [[Utils]] Attempting to create C:\Users\ADMIN\eclipse-QA03\AutomationLeaf\target\surefire-reports\HomeSuite\testng-failed.xml
+21:53:36.691 [main] INFO  org.testng.internal.Utils - [[Utils]]   Directory C:\Users\ADMIN\eclipse-QA03\AutomationLeaf\target\surefire-reports\HomeSuite exists: true
+21:53:36.693 [main] INFO  org.testng.internal.Utils - Creating C:\Users\ADMIN\eclipse-QA03\AutomationLeaf\target\surefire-reports\HomeSuite\testng-failed.xml
+21:53:36.694 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@1b5a1d85: 25 ms
+21:53:36.737 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@7dffda8b: 43 ms
+21:53:36.799 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@41a374be: 61 ms
+21:53:36.835 [main] INFO  org.testng.internal.Utils - [[Utils]] Attempting to create C:\Users\ADMIN\eclipse-QA03\AutomationLeaf\target\surefire-reports\junitreports\TEST-leaf_test.HomeTest.xml
+21:53:36.836 [main] INFO  org.testng.internal.Utils - [[Utils]]   Directory C:\Users\ADMIN\eclipse-QA03\AutomationLeaf\target\surefire-reports\junitreports exists: true
+21:53:36.837 [main] INFO  org.testng.internal.Utils - Creating C:\Users\ADMIN\eclipse-QA03\AutomationLeaf\target\surefire-reports\junitreports\TEST-leaf_test.HomeTest.xml
+21:53:36.838 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@76b47204: 39 ms
+21:53:36.838 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@4d6ccc97: 0 ms
+21:54:32.097 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\ADMIN\eclipse-QA03\AutomationLeaf\home.xml"
+21:54:32.395 [main] INFO  org.testng.internal.Utils - [TestRunner] Running the tests in 'HomeTest' with parallel mode:tests
+21:54:32.403 [main] INFO  org.testng.internal.Utils - [RunInfo] Adding method selector: org.testng.internal.XmlMethodSelector@3f91b517 priority: 10
+21:54:32.499 [main] INFO  org.testng.internal.Utils - [TestClass] Creating TestClass for [ClassImpl class=leaf_test.HomeTest]
+21:54:32.581 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 13 ms.
+21:54:32.617 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 31 ms.
+21:54:32.622 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+21:54:32.623 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+21:54:32.627 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+21:54:32.627 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+21:54:32.630 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+21:54:32.630 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+21:54:32.632 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+21:54:32.633 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+21:54:32.635 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+21:54:32.635 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+21:54:32.637 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+21:54:32.637 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+21:54:32.639 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+21:54:32.640 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+21:54:32.646 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+21:54:32.678 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 30 ms.
+21:54:32.681 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+21:54:32.682 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+21:54:32.690 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+21:54:32.691 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+21:54:32.692 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+21:54:32.692 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+21:54:32.694 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+21:54:32.695 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+21:54:32.698 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+21:54:32.699 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+21:54:32.699 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+21:54:32.700 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+21:54:32.734 [main] INFO  org.testng.internal.Utils - [Invoker 1265012928] Invoking @BeforeSuite BaseClass.startReport()[pri:0, instance:leaf_test.HomeTest@7862f56]
+21:54:33.215 [main] INFO  org.testng.internal.Utils - [SuiteRunner] Created 1 TestRunners
+21:54:33.225 [main] INFO  org.testng.internal.Utils - [TestRunner] Running test HomeTest on 1  classes,  included groups:[] excluded groups:[]
+21:54:33.226 [main] INFO  org.testng.TestClass - ===== Test class
+leaf_test.HomeTest
+21:54:33.226 [main] INFO  org.testng.TestClass -   @BeforeMethod BaseClass.browserSetup(java.lang.String,java.lang.String)[pri:0, instance:leaf_test.HomeTest@7862f56]
+21:54:33.227 [main] INFO  org.testng.TestClass -   @BeforeMethod HomeTest.pageSetup()[pri:0, instance:leaf_test.HomeTest@7862f56]
+21:54:33.227 [main] INFO  org.testng.TestClass -     @Test HomeTest.homepageTest(java.lang.String,java.lang.String)[pri:0, instance:leaf_test.HomeTest@7862f56]
+21:54:33.227 [main] INFO  org.testng.TestClass -   @AfterMethod BaseClass.tearDown()[pri:0, instance:leaf_test.HomeTest@7862f56]
+21:54:33.227 [main] INFO  org.testng.TestClass - ======
+21:54:33.239 [main] INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 7 ms.
+21:54:33.284 [main] INFO  org.testng.internal.Utils - [Invoker 1265012928] Invoking @BeforeMethod BaseClass.browserSetup(java.lang.String,java.lang.String)[pri:0, instance:leaf_test.HomeTest@7862f56]
+21:54:33.317 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 6.0.0
+21:54:34.251 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome=151 in cache (valid until 22:11:23 26/08/2026 IST)
+21:54:34.253 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome151=151.0.7922.138 in cache (valid until 21:11:23 27/08/2026 IST)
+21:54:34.254 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 151.0.7922.138 (resolved driver for Chrome 151)
+21:54:34.294 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 151.0.7922.138 found in cache
+21:54:34.297 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win64\151.0.7922.138\chromedriver.exe
+21:54:40.166 [main] INFO  leaf_base.BaseClass - Launched Browser: chrome
+21:54:53.586 [main] INFO  leaf_base.BaseClass - Navigated to URL: https://leaftaps.com/opentaps/control/main
+21:54:53.589 [main] INFO  org.testng.internal.Utils - [Invoker 1265012928] Invoking @BeforeMethod HomeTest.pageSetup()[pri:0, instance:leaf_test.HomeTest@7862f56]
+21:54:54.114 [main] INFO  org.testng.internal.Utils - [Invoker 1265012928] Invoking leaf_test.HomeTest.homepageTest
+21:55:37.157 [main] INFO  org.testng.internal.Utils - [Invoker 1265012928] Invoking @AfterMethod BaseClass.tearDown()[pri:0, instance:leaf_test.HomeTest@7862f56]
+21:55:41.257 [main] INFO  leaf_base.BaseClass - Browser closed
+21:55:44.392 [main] INFO  org.testng.internal.Utils - [[Utils]] Attempting to create C:\Users\ADMIN\eclipse-QA03\AutomationLeaf\target\surefire-reports\HomeSuite\HomeTest.xml
+21:55:44.393 [main] INFO  org.testng.internal.Utils - [[Utils]]   Directory C:\Users\ADMIN\eclipse-QA03\AutomationLeaf\target\surefire-reports\HomeSuite exists: true
+21:55:44.395 [main] INFO  org.testng.internal.Utils - Creating C:\Users\ADMIN\eclipse-QA03\AutomationLeaf\target\surefire-reports\HomeSuite\HomeTest.xml
+21:55:44.423 [main] INFO  org.testng.internal.Utils - [Invoker 1265012928] Invoking @AfterSuite BaseClass.endReport()[pri:0, instance:leaf_test.HomeTest@7862f56]
+21:55:45.108 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@751ae8a4: 627 ms
+21:55:45.138 [main] INFO  org.testng.internal.Utils - [[Utils]] Attempting to create C:\Users\ADMIN\eclipse-QA03\AutomationLeaf\target\surefire-reports\testng-failed.xml
+21:55:45.138 [main] INFO  org.testng.internal.Utils - [[Utils]]   Directory C:\Users\ADMIN\eclipse-QA03\AutomationLeaf\target\surefire-reports exists: true
+21:55:45.140 [main] INFO  org.testng.internal.Utils - Creating C:\Users\ADMIN\eclipse-QA03\AutomationLeaf\target\surefire-reports\testng-failed.xml
+21:55:45.142 [main] INFO  org.testng.internal.Utils - [[Utils]] Attempting to create C:\Users\ADMIN\eclipse-QA03\AutomationLeaf\target\surefire-reports\HomeSuite\testng-failed.xml
+21:55:45.143 [main] INFO  org.testng.internal.Utils - [[Utils]]   Directory C:\Users\ADMIN\eclipse-QA03\AutomationLeaf\target\surefire-reports\HomeSuite exists: true
+21:55:45.144 [main] INFO  org.testng.internal.Utils - Creating C:\Users\ADMIN\eclipse-QA03\AutomationLeaf\target\surefire-reports\HomeSuite\testng-failed.xml
+21:55:45.145 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@24eeac69: 35 ms
+21:55:45.188 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@7d21852b: 43 ms
+21:55:45.248 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@350ec690: 60 ms
+21:55:45.255 [main] INFO  org.testng.internal.Utils - [[Utils]] Attempting to create C:\Users\ADMIN\eclipse-QA03\AutomationLeaf\target\surefire-reports\junitreports\TEST-leaf_test.HomeTest.xml
+21:55:45.255 [main] INFO  org.testng.internal.Utils - [[Utils]]   Directory C:\Users\ADMIN\eclipse-QA03\AutomationLeaf\target\surefire-reports\junitreports exists: true
+21:55:45.256 [main] INFO  org.testng.internal.Utils - Creating C:\Users\ADMIN\eclipse-QA03\AutomationLeaf\target\surefire-reports\junitreports\TEST-leaf_test.HomeTest.xml
+21:55:45.257 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@1e0fdb2f: 8 ms
+21:55:45.257 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@3c380bd8: 0 ms

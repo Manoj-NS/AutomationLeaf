@@ -29,7 +29,7 @@ public class WelcomePage {
 	WebElement logoutBtn;
 	
 	@FindBy(xpath="//a[normalize-space(text())='CRM/SFA']")
-	WebElement link;
+	WebElement crmLink;
 	
 
 //Action Methods
@@ -43,11 +43,12 @@ public class WelcomePage {
 	}
 	
 	public boolean crmsfaLink() {
-		return link.isDisplayed();
+		return crmLink.isDisplayed();
 	}
 	
-	public void clickCRMSFALink() {
-		link.click();
+	public HomePage clickCRMSFALink() {
+		crmLink.click();
+		return new HomePage(driver);
 	}
 	
 
